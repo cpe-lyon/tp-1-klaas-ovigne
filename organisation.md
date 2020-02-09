@@ -80,43 +80,52 @@ Il ne se passe rien car **rmdir** ne supprime que des dossiers vides.
 
 *1. Quelle commande permet d’afficher l’heure ? A quoi sert la commande **time** ?*
 
+`date +%R` affiche l'heure
+`date` affiche la date, l'heure et le fuseau horaire
+**time** : permet de chronometrer une tâche, par exemple : `time ls -aRl` qui affiche le temps réel, le temps utilisateur et le temps système.
 
 
 *2. Dans votre dossier personnel, tapez successivement les commandes **ls** puis **la** ; que peut-on en déduire
 sur les fichiers commençant par un point ?*
 
-
+Avec **ls** on ne voit pas les fichiers dont le nom commence par un point, **la** affiche tout le repertoire.
 
 *3. Où se situe le programme **ls** ?*
 
-
+Avec `which ls` on voit que ls se situe dans  `usr/bin/ls`
 
 *4. Essayez la commande **ll**. Existe-t-il une entrée de manuel pour cette commande ? Utilisez les commandes **alias** pour en savoir plus sur la nature de cette commande.*
 
-
+Il n'y a pas d'entrée manuel pour **ll** 
+**ll** est un alias pour `ls -alF`
 
 *5. Quelle commande permet d’afficher les fichiers contenus dans le dossier `/bin` ?*
 
+On utilise : `ls /bin`
 
+*6. Que fait la commande `ls ..` ?*
 
-*6. Que fait la commande **ls ..** ?*
-
-
+`ls ..` Affiche ce qui est contenu dans le dossier parent au repertoire courant.
 
 *7. Quelle commande donne le chemin complet du dossier courant ?*
 
+`pwd`
  
 * __Commandes relatives aux fichiers__
 
 *8. Que fait la commande **echo 'yo' > plop** exécutée 2 fois ?*
 
+Executée deux fois, elle crée d'abord un fichier txt vide nommé "plop", puis elle y écrit "yo\n"
 
 
 *9. Que fait la commande **echo 'yo' >> plop** exécutée 2 fois ?*
 
+executée deux fois, elle crée d'abord un fichier txt avec "yo\n" ecrit, puis elle y écrit encore "yo\n"
 
 
 *10. A quoi sert la commande **file** ? Essayez la sur des fichiers de types différents.*
+
+**file** permet de determiner le type d'un fichier et certaines informations.
 
 
 
@@ -124,11 +133,23 @@ sur les fichiers commençant par un point ?*
 avec la commande **ln toto titi**. Modifiez à présent le contenu de toto et affichez le contenu de titi :
 qu’observe-t-on ? Supprimez le fichier toto ; quelle conséquence cela a-t-il sur titi ?*
 
+```shell
 
+echo 'Hello Toto !' >> toto
+ln toto titi
+echo 'He will not divide us' >> toto
+cat titi 
+
+```
+Le contenu de titi a aussi été mofidié
+Après la suppression, titi existe encore avec le même contenu
 
 *12. Créez à présent un lien symbolique tutu sur titi avec la commande **ln -s titi tutu**. Modifiez le
 contenu de titi ; quelle conséquence pour tutu ? Et inversement ? Supprimez le fichier titi ; quelle
 conséquence cela a-t-il sur tutu ?*
+
+Lorsqu'on modifie titi, tutu est modifié aussi et inversement.
+Lorsqu'on supprime titi, tutu est supprimé aussi
 
  
 * __Affichage et manipulation de fichiers__
