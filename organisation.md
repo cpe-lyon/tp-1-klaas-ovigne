@@ -10,11 +10,19 @@ La commande **which** nous affiche l'emplacement d'une commande passée en argum
 
 *2. Quand on consulte une page du manuel, comment peut-on rechercher un terme (par exemple, chercher le terme option dans la page de manuel de **which** ?*
 
-Pour rechercher unterme, on utilise "/terme a rechercher" par exemple /options pour chercher le mot option
+Pour rechercher unterme, on utilise `/terme a rechercher` par exemple `/options` pour chercher le mot option.
 
 *3. Comment quitte-t-on le manuel ?*
 
+On quitte le manuel en appuyant qur la touche "Q" comme écrit en bas de la fenêtre.
+
 *4. Chaque section du manuel a une première page, qui présente le contenu de la section. Afficher la première page de la section 6 ; de quoi parle cette section ?*
+
+On tape : `man 6 intro` pour afficher la première page, la section 6 présente des petits programmes amusants présents sur le système.
+
+navigation
+
+
 
  
 * __Navigation dans l’arborescence des fichiers__
