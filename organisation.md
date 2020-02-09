@@ -56,24 +56,25 @@ sudo mkdir -p Dossier2/Dossier2.2
 sudo chown -R verad:verad /home/verad
 
 ```
+puis en se plaçant dans les bons dossiers, on crée les fichiers comme ceci : `cat > FichierX.txt`
 
 
 *8. revenez dans votre dossier personnel ; à l’aide de la commande **rm**, essayez de supprimer Fichier1, puis
 Dossier1 ; que se passe-t-il ?*
 
-
+**rm** supprime bien les fichiers, mais ne fonctionne pas sur les repertoires. **rm** ne supprime donc pas Dossier1.
 
 *9. quelle commande permet de supprimer un dossier ?*
 
-
+`sudo rmdir NOMDUDOSSIER` permet de supprimer un dossier vide.
 
 *10. que se passe-t-il quand on applique cette commande à Dossier2 ?*
 
-
+Il ne se passe rien car **rmdir** ne supprime que des dossiers vides.
 
 *11. comment supprimer en une seule commande Dossier2 et son contenu ?*
 
-
+`sudo rm -r Dossier2` supprime de manière récursive tous les fichiers contenus dans Dossier2 ainsi que les dossier lui-même.
 
 * __Commandes importantes__
 
