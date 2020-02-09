@@ -49,6 +49,9 @@ Nous n'avons pas la permission d'y accèder.
 cd est une commande intégrée et non un programme, or `sudo` ne s'applique qu'aux programmes, le shell cherche alors un programme appelé "cd", mais il n'en trouve pas.
 
 7. *à partir de votre dossier personnel, créez l’arborescence suivante :*
+![tree view](https://github.com/cpe-lyon/tp-1-klaas-ovigne/blob/master/Capture.PNG)
+
+
 ```shell
 
 sudo mkdir Dossier1
