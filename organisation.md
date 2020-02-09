@@ -4,7 +4,7 @@
 ## Exercice n°2 
 * __Utilisation du Manuel__
 
-* *1. A l’aide du manuel, identifiez le rôle de la commande **which***
+* *1. A l’aide du manuel, identifiez le rôle de la commande **which** *
 
 La commande **which** nous affiche l'emplacement d'une commande passée en argument.
 
