@@ -252,19 +252,19 @@ Pour annuler cette action : on fait Alt + U 2 fois de suite
  
 ## Exercice n°4
 
-1. Commencez par créer une copie de ce fichier, que vous appellerez .bashrc_bak 
+1. *Commencez par créer une copie de ce fichier, que vous appellerez .bashrc_bak *
 
 On utilise la commande  `cp .bashrc .bashrc_bak`
 
-2. Editez le fichier .bashrc avec nano et décommentez la ligne force_color_prompt=yes pour activer la couleur. Enregistrez le fichier et quittez nano.
+2. *Editez le fichier .bashrc avec nano et décommentez la ligne force_color_prompt=yes pour activer la couleur. Enregistrez le fichier et quittez nano.*
 
 `nano .bashrc`
 Puis on trouve la ligne et on la décommente (enlever le \#).
 
-3. Le fichier .bashrc est lu au démarrage du shell; pour le recharger, il faudrait donc se déconnecter puis se reconnecter; mais il existe un autre moyen : la commande source .bashrc. Testez-la, l’invite de commande devrait immédiatement passer en couleurs.
+3. *Le fichier .bashrc est lu au démarrage du shell; pour le recharger, il faudrait donc se déconnecter puis se reconnecter; mais il existe un autre moyen : la commande source .bashrc. Testez-la, l’invite de commande devrait immédiatement passer en couleurs.*
 
 On utilise `source .bashrc`
 
-4. Modifiez l’invite de commande
+4. *Modifiez l’invite de commande*
 
 On obtient ![](https://cdn.discordapp.com/attachments/489454553108840453/676084983915347968/unknown.png)
