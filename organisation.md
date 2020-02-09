@@ -4,9 +4,9 @@
 ## Exercice n°2 
 * __Utilisation du Manuel__
 
-*1. A l’aide du manuel, identifiez le rôle de la commande 'which'*
+*1. A l’aide du manuel, identifiez le rôle de la commande `which`*
 
-*2. Quand on consulte une page du manuel, comment peut-on rechercher un terme (par exemple, chercher le terme option dans la page de manuel de 'which' ?*
+*2. Quand on consulte une page du manuel, comment peut-on rechercher un terme (par exemple, chercher le terme option dans la page de manuel de `which` ?*
 
 *3. Comment quitte-t-on le manuel ?*
 
@@ -15,21 +15,21 @@
  
 * __Navigation dans l’arborescence des fichiers__
 
-*1. allez dans le dossier /var/log*
+*1. allez dans le dossier `/var/log`*
 
-*2. remontez dans le dossier parent (/var) en utilisant un chemin relatif*
+*2. remontez dans le dossier parent (`/var`) en utilisant un chemin relatif*
 
 *3. retournez dans le dossier personnel*
 
-*4. . revenez au dossier précédent (/var) sans utiliser de chemin*
+*4. . revenez au dossier précédent (`/var`) sans utiliser de chemin*
 
-*5. essayez d’accéder au dossier /root ; que se passe-t-il ?*
+*5. essayez d’accéder au dossier `/root` ; que se passe-t-il ?*
 
-*6. essayez la commande sudo cd /root ; que se passe-t-il ? Expliquez*
+*6. essayez la commande `sudo cd /root` ; que se passe-t-il ? Expliquez*
 
 *7. à partir de votre dossier personnel, créez l’arborescence suivante :*
 
-*8. revenez dans votre dossier personnel ; à l’aide de la commande rm, essayez de supprimer Fichier1, puis
+*8. revenez dans votre dossier personnel ; à l’aide de la commande `rm`, essayez de supprimer Fichier1, puis
 Dossier1 ; que se passe-t-il ?*
 
 *9. quelle commande permet de supprimer un dossier ?*
