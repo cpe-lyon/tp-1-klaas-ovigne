@@ -18,7 +18,7 @@ On quitte le manuel en appuyant qur la touche "Q" comme écrit en bas de la fen�
 
 *4. Chaque section du manuel a une première page, qui présente le contenu de la section. Afficher la première page de la section 6 ; de quoi parle cette section ?*
 
-On tape : `man 6 intro` pour afficher la première page, la section 6 présente des petits programmes amusants présents sur le système.
+On tape : ``` man 6 intro ``` pour afficher la première page, la section 6 présente des petits programmes amusants présents sur le système.
 
 navigation
 
