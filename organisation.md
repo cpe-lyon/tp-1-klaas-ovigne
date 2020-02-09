@@ -25,11 +25,11 @@
 
 *5. essayez d’accéder au dossier `/root` ; que se passe-t-il ?*
 
-*6. essayez la commande `sudo cd /root` ; que se passe-t-il ? Expliquez*
+*6. essayez la commande **sudo cd /root** ; que se passe-t-il ? Expliquez*
 
 *7. à partir de votre dossier personnel, créez l’arborescence suivante :*
 
-*8. revenez dans votre dossier personnel ; à l’aide de la commande `rm`, essayez de supprimer Fichier1, puis
+*8. revenez dans votre dossier personnel ; à l’aide de la commande **rm**, essayez de supprimer Fichier1, puis
 Dossier1 ; que se passe-t-il ?*
 
 *9. quelle commande permet de supprimer un dossier ?*
@@ -41,18 +41,18 @@ Dossier1 ; que se passe-t-il ?*
  
 * __Commandes importantes__
 
-*1. Quelle commande permet d’afficher l’heure ? A quoi sert la commande `time` ?*
+*1. Quelle commande permet d’afficher l’heure ? A quoi sert la commande **time** ?*
 
-*2. Dans votre dossier personnel, tapez successivement les commandes `ls` puis `la` ; que peut-on en déduire
+*2. Dans votre dossier personnel, tapez successivement les commandes **ls** puis **la** ; que peut-on en déduire
 sur les fichiers commençant par un point ?*
 
-*3. Où se situe le programme `ls` ?*
+*3. Où se situe le programme **ls** ?*
 
-*4. Essayez la commande `ll`. Existe-t-il une entrée de manuel pour cette commande ? Utilisez les commandes `alias` pour en savoir plus sur la nature de cette commande.*
+*4. Essayez la commande **ll**. Existe-t-il une entrée de manuel pour cette commande ? Utilisez les commandes **alias** pour en savoir plus sur la nature de cette commande.*
 
 *5. Quelle commande permet d’afficher les fichiers contenus dans le dossier `/bin` ?*
 
-*6. Que fait la commande `ls ..` ?*
+*6. Que fait la commande **ls ..** ?*
 
 *7. Quelle commande donne le chemin complet du dossier courant ?*
 
