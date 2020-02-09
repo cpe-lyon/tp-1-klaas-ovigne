@@ -12,6 +12,7 @@
 
 *4. Chaque section du manuel a une première page, qui présente le contenu de la section. Afficher la première page de la section 6 ; de quoi parle cette section ?*
 
+
 * __Navigation dans l’arborescence des fichiers__
 
 *1. allez dans le dossier /var/log*
@@ -37,6 +38,7 @@ Dossier1 ; que se passe-t-il ?*
 
 *11. comment supprimer en une seule commande Dossier2 et son contenu ?*
 
+
 * __Commandes importantes__
 
 *1. Quelle commande permet d’afficher l’heure ? A quoi sert la commande time ?*
@@ -54,6 +56,7 @@ sur les fichiers commençant par un point ?*
 
 *7. Quelle commande donne le chemin complet du dossier courant ?*
 
+
 * __Commandes relatives aux fichiers__
 
 *8. Que fait la commande echo 'yo' > plop exécutée 2 fois ?*
@@ -69,6 +72,7 @@ qu’observe-t-on ? Supprimez le fichier toto ; quelle conséquence cela a-t-il 
 *12. Créez à présent un lien symbolique tutu sur titi avec la commande ln -s titi tutu. Modifiez le
 contenu de titi ; quelle conséquence pour tutu ? Et inversement ? Supprimez le fichier titi ; quelle
 conséquence cela a-t-il sur tutu ?*
+
 
 * __Affichage et manipulation de fichiers__
 
@@ -101,7 +105,9 @@ précédemment*
 
 *24. Créer un fichier dans votre dossier personnel puis utilisez locate pour le trouver. Apparaît-il ? Pourquoi ?*
 
+
 ## Exercice n°3
+
 * __L'éditeur de texte nano__
 
 *1. Copiez le fichier /var/log/syslog dans votre dossier personnel sous le nom log.txt, puis ouvrez-le avec
