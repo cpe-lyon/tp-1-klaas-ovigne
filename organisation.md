@@ -41,35 +41,35 @@ Dossier1 ; que se passe-t-il ?*
  
 * __Commandes importantes__
 
-*1. Quelle commande permet d’afficher l’heure ? A quoi sert la commande time ?*
+*1. Quelle commande permet d’afficher l’heure ? A quoi sert la commande `time` ?*
 
-*2. Dans votre dossier personnel, tapez successivement les commandes ls puis la ; que peut-on en déduire
+*2. Dans votre dossier personnel, tapez successivement les commandes `ls` puis `la` ; que peut-on en déduire
 sur les fichiers commençant par un point ?*
 
-*3. Où se situe le programme ls ?*
+*3. Où se situe le programme `ls` ?*
 
-*4. Essayez la commande ll. Existe-t-il une entrée de manuel pour cette commande ? Utilisez les commandes alias ou alias pour en savoir plus sur la nature de cette commande.*
+*4. Essayez la commande `ll`. Existe-t-il une entrée de manuel pour cette commande ? Utilisez les commandes `alias` pour en savoir plus sur la nature de cette commande.*
 
-*5. Quelle commande permet d’afficher les fichiers contenus dans le dossier /bin ?*
+*5. Quelle commande permet d’afficher les fichiers contenus dans le dossier `/bin` ?*
 
-*6. Que fait la commande ls .. ?*
+*6. Que fait la commande `ls ..` ?*
 
 *7. Quelle commande donne le chemin complet du dossier courant ?*
 
  
 * __Commandes relatives aux fichiers__
 
-*8. Que fait la commande echo 'yo' > plop exécutée 2 fois ?*
+*8. Que fait la commande *`echo 'yo' > plop`* exécutée 2 fois ?*
 
-*9. Que fait la commande echo 'yo' >> plop exécutée 2 fois ?*
+*9. Que fait la commande *`echo 'yo' >> plop`* exécutée 2 fois ?*
 
-*10. A quoi sert la commande file ? Essayez la sur des fichiers de types différents.*
+*10. A quoi sert la commande *`file`* ? Essayez la sur des fichiers de types différents.*
 
 *11. Créez un fichier toto qui contient la chaîne Hello Toto ! ; créer ensuite un lien titi vers ce fichier
-avec la commande ln toto titi. Modifiez à présent le contenu de toto et affichez le contenu de titi :
+avec la commande *`ln toto titi`*. Modifiez à présent le contenu de toto et affichez le contenu de titi :
 qu’observe-t-on ? Supprimez le fichier toto ; quelle conséquence cela a-t-il sur titi ?*
 
-*12. Créez à présent un lien symbolique tutu sur titi avec la commande ln -s titi tutu. Modifiez le
+*12. Créez à présent un lien symbolique tutu sur titi avec la commande *`ln -s titi tutu`*. Modifiez le
 contenu de titi ; quelle conséquence pour tutu ? Et inversement ? Supprimez le fichier titi ; quelle
 conséquence cela a-t-il sur tutu ?*
 
