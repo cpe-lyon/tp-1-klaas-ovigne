@@ -110,7 +110,7 @@ précédemment*
 
 * __L'éditeur de texte nano__
 
-*1. Copiez le fichier /var/log/syslog dans votre dossier personnel sous le nom log.txt, puis ouvrez-le avec
+*1. Copiez le fichier `/var/log/syslog` dans votre dossier personnel sous le nom `log.txt`, puis ouvrez-le avec
 nano*
 
 *2. Remplacez toutes les occurrences du mot kernel par le mot noyau*
