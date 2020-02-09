@@ -271,4 +271,5 @@ On utilise `source .bashrc`
 4. *Modifiez l’invite de commande*
 
 On obtient :
+
 ![](https://github.com/cpe-lyon/tp-1-klaas-ovigne/blob/master/terminalcouleur.png)
