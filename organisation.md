@@ -6,7 +6,11 @@
 
 *1. A l’aide du manuel, identifiez le rôle de la commande **which***
 
+La commande **which** nous affiche l'emplacement d'une commande passée en argument.
+
 *2. Quand on consulte une page du manuel, comment peut-on rechercher un terme (par exemple, chercher le terme option dans la page de manuel de **which** ?*
+
+Pour rechercher unterme, on utilise "/terme a rechercher" par exemple /options pour chercher le mot option
 
 *3. Comment quitte-t-on le manuel ?*
 
