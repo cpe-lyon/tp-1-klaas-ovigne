@@ -226,22 +226,28 @@ voici le chemin vers le fichier `history.log` : `/var/log/apt/history.log`.
 *1. Copiez le fichier `/var/log/syslog` dans votre dossier personnel sous le nom `log.txt`, puis ouvrez-le avec
 nano*
 
+^R `/var/log/syslog.txt` et ^O `/home/verad log.txt`,
+puis on se place dans notre dossier personnel,
+puis `nano log.txt`.
 
 
 *2. Remplacez toutes les occurrences du mot kernel par le mot noyau*
 
+^\ on écrit "kernel" puis on appuie sur Enter puis "noyau"
 
 
 *3. Déplacer les 10 premières lignes à la fin du fichier*
 
+On sélectionne les 10 premières lignes avec shift et en déplaçant le curseur avec les flèches directionnelles puis ^K (pour couper), ^_ ^V et ^U (pour coller)
 
 
 *4. Annulez cette action*
 
-
+Pour annuler cette action : on fait Alt + U 2 fois de suite 
 
 *5. Enregistrez le fichier avant de quitter nano*
  
- 
+ On fait : ^S ou ^X et "valider l'enregistrement"
+
  
 ## Exercice n°4
