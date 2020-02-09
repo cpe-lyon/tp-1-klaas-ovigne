@@ -114,12 +114,12 @@ On utilise : `ls /bin`
  
 * __Commandes relatives aux fichiers__
 
-*8. Que fait la commande **echo 'yo' > plop** exécutée 2 fois ?*
+*8. Que fait la commande `echo 'yo' > plop` exécutée 2 fois ?*
 
 Executée deux fois, elle crée d'abord un fichier txt vide nommé "plop", puis elle y écrit "yo\n".
 
 
-*9. Que fait la commande **echo 'yo' >> plop** exécutée 2 fois ?*
+*9. Que fait la commande `echo 'yo' >> plop` exécutée 2 fois ?*
 
 executée deux fois, elle crée d'abord un fichier txt avec "yo\n" ecrit, puis elle y écrit encore "yo\n".
 
@@ -200,7 +200,7 @@ On utilise : `sudo find / -name passwd`
 *21. Modifiez la commande précédente pour que la liste des fichiers trouvés soit enregistrée dans le fichier
 `~/list_passwd_files.txt` et que les erreurs soient redirigées vers le fichier spécial `/dev/null`*
 
-On utilise : `sudo find 2> /dev/null >list_passwd_files.txt / -name passwd`
+On utilise : `sudo find 2> /dev/null >list_passwd_files.txt / -name passwd` , 
 `2> /dev/null` permet de diriger le buffer d'erreurs vers le fichier spécial `/dev/null` et `>list_passwd_files.txt` permet d'ecrire la sortie de la commande dans le fichier list_passwd_files.txt.
 
 *22. Dans votre dossier personnel, utilisez la commande **grep** pour chercher où est défini l’alias ll vu
@@ -210,10 +210,14 @@ précédemment*
 
 *23. Utilisez la commande **locate** pour trouver le fichier `history.log`.*
 
+`sudo install mlocate
+locate history.log`
 
+voici le chemin vers le fichier `history.log` : `/var/log/apt/history.log`.
 
 *24. Créer un fichier dans votre dossier personnel puis utilisez **locate** pour le trouver. Apparaît-il ? Pourquoi ?*
  
+ Il n'est pas trouvé car il ne fait pas partie de la base de données des fichiers indexés.
 
 ## Exercice n°3
 
