@@ -114,13 +114,15 @@ puis " nano log.txt" (verad en répertoire courant)
 
 PERSONNALISATION DU SHELL
 
-1 
+1 On utilise la commande  `cp .bashrc .bashrc_bak`
 
-2 
+2 `nano .bashrc`
 
-3 
+Puis on trouve la ligne et on la décommente (enlever le \#).
 
-4 
+3 On utilise `source .bashrc`
+
+4 On obtient ![](https://cdn.discordapp.com/attachments/489454553108840453/676084983915347968/unknown.png)
 
 
 
