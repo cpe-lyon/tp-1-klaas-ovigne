@@ -1,4 +1,5 @@
 ﻿MANUEL
+ 
 1 renvoie l'emplacement d'une commande
 
 2 on utilise "/terme a rechercher" par exemple /options pour chercher le mot option
