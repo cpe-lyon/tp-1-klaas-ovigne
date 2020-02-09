@@ -1,4 +1,7 @@
-# TP1Admin
+OVIGNE Adrien (INFRA) & KLAAS Guillaume (INFO)
+
+# TP 1 - Installation d’Ubuntu Server et prise en main du shell
+
 
 ## Exercice n°1
 ## Exercice n°2 
