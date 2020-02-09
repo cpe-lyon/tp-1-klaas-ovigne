@@ -270,4 +270,5 @@ On utilise `source .bashrc`
 
 4. *Modifiez l’invite de commande*
 
-On obtient ![](https://cdn.discordapp.com/attachments/489454553108840453/676084983915347968/unknown.png)
+On obtient :
+![](https://github.com/cpe-lyon/tp-1-klaas-ovigne/blob/master/terminalcouleur.png)
